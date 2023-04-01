@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+  
+  <p><a href="file:///D:/html__file1/A%20suply-homepage.html">click CLICK TO GO BACK HOME</a></p> <br><br>
+
+<h2>few words from a3</h2>
+
+<button class="accordion">section of a life 1</button>
+<div class="panel">
+  <p> Quotes made life easy
+“I always knew there was no one who is going to accept my flaws and understand my brokenness.And i knew it very well that nobody would hold my hand when the wind of darkness overcome my life so i just pushed them,i pushed them all away.”
+― Bazil Carl W Chong Derek Friedman Daniel
+tags: adam-and-eve, bold-love, boneless, breakup, breathless, cheat, cheated, cheating, cheating-in-relationship, cheating-spouse, eye-contact, god-of-love, good-partners, heart-attack, heart-break, heartache, heartless, helpless-love, helpless-lover, hero-of-the-story, holding-hands, incomplete-love-story, life-lessons, lifeless, love-life, love-life-death, love-marriage, love-series, love-with-wisdom, loving-someone, my-life, my-story, personal-life, poisoness, puppy-love, quotes-on-breakup, red-blood, robotic-love, scented-love, true-love-story.</p>
+</div>
+
+<button class="accordion">Section of a life 2</button>
+<div class="panel">
+  <p>But his dread was the nights when he could not sleep. Then it was awful indeed, when annihilation pressed in on him on every side. Then it was ghastly, to exist without having any life: lifeless, in the night, to exist.”
+― D.H. Lawrence, Lady Chatterley's.</p>
+</div>
+
+<button class="accordion">Section of a life 3</button>
+<div class="panel">
+  <p>“Sitting in a corner, I live like a toad
+Oh! How I love my room: my tiny abode!
+Here I wake up; and I sleep in here
+The world far away; yet virtually near
+Not that I'm jailed in this place of grace
+Just don't want to face another face”
+― Munia Khan.</p>
+</div>
+
+
+<button class="accordion">Section of a life 4</button>
+<div class="panel">
+  <p>“My doctors asked what was wrong when they found me pale faced and lifeless. I told them I spent an immense amount of time stuDYING.”
+― Karen Quan, Better to be able to love than to be loveable.</p>
+</div>
+
+
+<button class="accordion">Section of a life 5</button>
+<div class="panel">
+  <p>“Do I dare believe such an absurdly outrageous story that a man would die, lay lifeless in some tomb for three days and then somehow live again? Yet, if I dare to consider it, is that not exactly what I so desperately desire for this lifeless life of mine? And is Easter God’s tenderly outrageous way of telling me that that is exactly what I can have?”
+― Craig D. Lounsbrough.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
